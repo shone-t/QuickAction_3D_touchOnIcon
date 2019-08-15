@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		526C0AA52304722A0048E220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C0AA42304722A0048E220 /* AppDelegate.swift */; };
-		526C0AA72304722A0048E220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C0AA62304722A0048E220 /* ViewController.swift */; };
 		526C0AAA2304722A0048E220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C0AA82304722A0048E220 /* Main.storyboard */; };
 		526C0AAC2304722B0048E220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526C0AAB2304722B0048E220 /* Assets.xcassets */; };
 		526C0AAF2304722B0048E220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526C0AAD2304722B0048E220 /* LaunchScreen.storyboard */; };
+		526C0AB7230495DF0048E220 /* prviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C0AB6230495DF0048E220 /* prviVC.swift */; };
+		526C0AB9230495EC0048E220 /* drugiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C0AB8230495EC0048E220 /* drugiVC.swift */; };
+		526C0ABC230496660048E220 /* treciVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C0ABB230496660048E220 /* treciVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		526C0AA12304722A0048E220 /* QuickAction_3D_touchOnIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAction_3D_touchOnIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526C0AA42304722A0048E220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		526C0AA62304722A0048E220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		526C0AA92304722A0048E220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526C0AAB2304722B0048E220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526C0AAE2304722B0048E220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526C0AB02304722B0048E220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526C0AB6230495DF0048E220 /* prviVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prviVC.swift; sourceTree = "<group>"; };
+		526C0AB8230495EC0048E220 /* drugiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drugiVC.swift; sourceTree = "<group>"; };
+		526C0ABB230496660048E220 /* treciVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treciVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				526C0AA42304722A0048E220 /* AppDelegate.swift */,
-				526C0AA62304722A0048E220 /* ViewController.swift */,
 				526C0AA82304722A0048E220 /* Main.storyboard */,
 				526C0AAB2304722B0048E220 /* Assets.xcassets */,
 				526C0AAD2304722B0048E220 /* LaunchScreen.storyboard */,
+				526C0AB6230495DF0048E220 /* prviVC.swift */,
+				526C0AB8230495EC0048E220 /* drugiVC.swift */,
+				526C0ABB230496660048E220 /* treciVC.swift */,
 				526C0AB02304722B0048E220 /* Info.plist */,
 			);
 			path = QuickAction_3D_touchOnIcon;
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526C0AA72304722A0048E220 /* ViewController.swift in Sources */,
+				526C0ABC230496660048E220 /* treciVC.swift in Sources */,
+				526C0AB9230495EC0048E220 /* drugiVC.swift in Sources */,
+				526C0AB7230495DF0048E220 /* prviVC.swift in Sources */,
 				526C0AA52304722A0048E220 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZK457J9UDQ;
 				INFOPLIST_FILE = QuickAction_3D_touchOnIcon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZK457J9UDQ;
 				INFOPLIST_FILE = QuickAction_3D_touchOnIcon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

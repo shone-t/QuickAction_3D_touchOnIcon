@@ -31,8 +31,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -40,6 +38,39 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIApplicationShortcutItem</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).mountains</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Mountains</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Idemoooo SubTitle</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>MountainShort</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).space</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Space</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Podnalsov za space</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>SpaceShort</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).ocean</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Ocean</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Ocean sub</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>OceanShort</string>
+		</dict>
 	</array>
 </dict>
 </plist>

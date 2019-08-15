@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  treciVC.swift
 //  QuickAction_3D_touchOnIcon
 //
 //  Created by MacBook Pro on 8/14/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class treciVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
