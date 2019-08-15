@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V1T-Wo-F6M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3gL-Ux-1O4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--PrviVC-->
+        <!--Mountain-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="prviVC" id="BYZ-38-t0r" customClass="prviVC" customModule="QuickAction_3D_touchOnIcon" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="aSP-Bk-h6b">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -31,19 +31,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Mountain" image="MountainShort" selectedImage="MountainShort" id="221-Ih-iUi"/>
                     <navigationItem key="navigationItem" id="LnL-Vg-aYB">
-                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="j3x-F1-UUs">
-                            <connections>
-                                <segue destination="QKr-4q-n1t" kind="show" id="YkM-un-N4T"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="j3x-F1-UUs"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1151" y="769"/>
+            <point key="canvasLocation" x="2088.8000000000002" y="768.66566716641682"/>
         </scene>
-        <!--DrugiVC-->
+        <!--Space-->
         <scene sceneID="FGw-wc-PYF">
             <objects>
                 <viewController storyboardIdentifier="drugiVC" id="QKr-4q-n1t" customClass="drugiVC" customModule="QuickAction_3D_touchOnIcon" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +49,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Space" translatesAutoresizingMaskIntoConstraints="NO" id="cs8-dZ-jnZ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -64,19 +61,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1e0-fc-Trv"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Space" image="SpaceShort" selectedImage="SpaceShort" id="aZX-sP-Y2e"/>
                     <navigationItem key="navigationItem" id="TUi-cx-yOw">
-                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="z5y-Ck-qxA">
-                            <connections>
-                                <segue destination="xlV-rA-AOA" kind="show" id="N6j-NH-Jlq"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="z5y-Ck-qxA"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dy8-Z5-nlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889" y="769"/>
+            <point key="canvasLocation" x="2865" y="1158"/>
         </scene>
-        <!--TreciVC-->
+        <!--Ocean-->
         <scene sceneID="mud-eu-hg8">
             <objects>
                 <viewController storyboardIdentifier="treciVC" id="xlV-rA-AOA" customClass="treciVC" customModule="QuickAction_3D_touchOnIcon" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,7 +79,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ocean" translatesAutoresizingMaskIntoConstraints="NO" id="F5K-Dg-nwl">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -97,33 +91,38 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="65a-fG-ryf"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Ocean" image="OceanShort" selectedImage="OceanShort" id="0cj-GE-0av"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9A7-M9-9Qf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2698" y="771"/>
+            <point key="canvasLocation" x="2088.8000000000002" y="1547.6761619190406"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="LJL-7O-zpR">
+        <!--Tab Bar Controller-->
+        <scene sceneID="2nf-cL-RAv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V1T-Wo-F6M" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3gL-Ux-1O4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RZd-lr-fVd">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="exb-2c-Yup">
                         <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dtG-YB-sPM"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="sLk-wI-csS"/>
+                        <segue destination="QKr-4q-n1t" kind="relationship" relationship="viewControllers" id="TAe-ot-LsC"/>
+                        <segue destination="xlV-rA-AOA" kind="relationship" relationship="viewControllers" id="R3X-U5-h23"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IDc-Bo-aP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XpR-WG-S8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="164" y="768.66566716641682"/>
+            <point key="canvasLocation" x="1149.5999999999999" y="1158.1709145427287"/>
         </scene>
     </scenes>
     <resources>
+        <image name="MountainShort" width="35" height="35"/>
         <image name="Mountains" width="375" height="667"/>
         <image name="Ocean" width="375" height="667"/>
+        <image name="OceanShort" width="35" height="35"/>
         <image name="Space" width="375" height="667"/>
+        <image name="SpaceShort" width="35" height="35"/>
     </resources>
 </document>
